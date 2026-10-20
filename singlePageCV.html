@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            :root {
+                --green: #159447;
+                --blue: #0875e1;
+                --text: #242424;
+            }
+
+         *{
+            box-sizing: border-box;
+         }
+
+         body{
+            margin: 0;
+            background: #f3f3f3;
+            color: var(--text);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 1.35;
+         }
+
+         .resume{
+            width: min(100%, 650px);
+            min-height: 900px;
+            margin: 24px, auto;
+            padding: 48px;
+            background: white;
+            box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+         }
+
+         .top-rule{
+            border: 0;
+            border-top: 2px solid #333;
+            margin: 0 0 14px;
+         }
+
+         h1{
+            margin: 0 0 4px;
+            font-size: 24px;
+            font-weight: 400;
+         }
+
+         .role{
+            margin-bottom: 10px;
+            color: var(--green);
+            font-size: 12px;
+         }
+         .contact p{
+            margin: 0;
+         }
+
+         section{
+            margin-top: 22px;
+         }
+
+         h2{
+            margin: 0 0 5px;
+            color: var(--green);
+            font-size: 12px;
+            font-weight: 400;
+         }
+         
+         p{
+            margin: 0 0 4px;
+         }
+
+         .link-title{
+            color: var(--blue);
+            font-size: 14px;
+            text-decoration: none;
+         }
+         .link-title:hover{
+            text-decoration: underline;
+         }
+         ul{
+            margin: 7px 0;
+            padding-left: 18px;
+         }
+         li{
+            margin: 2px 0;
+         }
+
+         .skills-line{
+            margin-top: 7px;
+
+         }
+
+         @media (max-width: 600px){
+            body{
+                background: white;
+            }
+         
+
+         .resume{
+            min-height: 100vh;
+            margin: 0 auto;
+            padding: 28px 24px;
+            box-shadow: none;
+         }
+        }
+
+        @media print{
+            body{
+                background: white;
+            }
+        
+
+        .resume{
+            width: 100%;
+            min-height: 0;
+            margin: 0;
+            padding: 32px 40px;
+            box-shadow: none;
+        }
+    }   
+        </style>
+    </head>
+
+    <body>
+
+        <main class="resume">
+
+            <hr class="top-rule">
+
+        <header>
+            
+
+            <h1>Manuel G. Guanzon Jr.</h1>
+            <p>Junior Front End Developer</p>
+
+            <p>
+                Blk 19 Lot 10 Tierra Monte Subdivision <br>
+                Silangan San Mateo Rizal 1850 <br>
+                +639930275274 <br>
+                manuelguanzon44@gmail.com <br>
+            </p>
+        </header>
+
+        <section>
+            <h2>Skills</h2>
+            <p>
+                HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, <br>
+                Technical Writing, Presentation <br>
+            </p>    
+        </section>
+
+        <Section>
+            <h2>Education</h2>
+
+            <h3>STI College Marikina - Bachelor of Science in Information Technology</h3>
+            <p>July 2019 to Aug 2024</p>
+            <p>Play Billiards during break time </p>
+        </Section>
+
+        <Section>
+
+            <h2>Experience</h2>
+            <p>CGI Philippines - Associate Consultant</p>
+            <p>July 2024 - present</p>
+            <ul>Top performerfor Quarter 4 2025</ul>
+            <ul>Subject Matter Expert</ul>
+
+        </Section>
+
+        <Section>
+            <h2>Across the Internet</h2>
+            <p> 
+                <a href="https://linkedin.com/in/manuel-guanzon-7ba549190">linkedIn</a> <br>
+                <a href="https://github.com/Manuell16">GitHub</a>
+            </p>
+        </Section>
+
+        </main>
+    </body>
+</html>
