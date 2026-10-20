@@ -1,3 +1,3 @@
 # SinglePageCV
 My Resume
-https://github.com/Manuell16/SinglePageCV.git
+https://roadmap.sh/projects/single-page-cv
